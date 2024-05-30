@@ -454,6 +454,7 @@ setup(
             "pynq-get-notebooks = pynq._cli.get_notebooks:main",
         ],
         "distutils.commands": [
+            "apply_pynqutils_patch = hack._apply_pynqutils_patch",
             "download_overlays = pynqutils.setup_utils:du_download_overlays"
         ],
     },
